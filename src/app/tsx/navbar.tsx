@@ -42,9 +42,9 @@ export default function Navbar({
 
   return (
     <div className="layout">
-      <nav className="navstyle.navbar">
+      <nav className={navstyle.navbar}>
         <Link href="/">
-          <Image className="navstyle.navbar-logo" src="/logo.png" alt='iconImage'/>
+          <Image className={navstyle.navbar-logo} src="/logo.png" alt='iconImage'/>
         </Link>
         <ul className="navbar__menu w3-hide-small" style={{ display: 'flex', listStyle: 'none', margin: '0' }}>
           <li className="navbar-item">
