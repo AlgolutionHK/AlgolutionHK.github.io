@@ -42,7 +42,7 @@ export default function Navbar({
 
   return (
     <div className="layout">
-      <nav className="navbar">
+      <nav className="navstyle.navbar">
         <Link href="/">
           <Image className="navstyle.navbar-logo" src="/logo.png" alt='iconImage'/>
         </Link>
