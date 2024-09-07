@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 // import { Outlet, Link } from 'react-router-dom';
-import '../css/navbar.css';
+import navstyle from '../css/navbar.module.css';
 // import Logo from '../../../public/logo.png';
 import '../css/w3.css';
 
@@ -44,7 +44,7 @@ export default function Navbar({
     <div className="layout">
       <nav className="navbar">
         <Link href="/">
-          <Image className="navbar-logo" src="/logo.png" alt='iconImage'/>
+          <Image className="navstyle.navbar-logo" src="/logo.png" alt='iconImage'/>
         </Link>
         <ul className="navbar__menu w3-hide-small" style={{ display: 'flex', listStyle: 'none', margin: '0' }}>
           <li className="navbar-item">
