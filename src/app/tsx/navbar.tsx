@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 // import { Outlet, Link } from 'react-router-dom';
 // import navstyle from '@/app/css/navbar.module.css';
-import '../css/navbar.css';
+import '../styles/navbar.css';
 // import Logo from '../../../public/logo.png';
 import '../css/w3.css';
 
