@@ -12,8 +12,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Navbar({
-    
-}) {
+    children,
+}: Readonly<{
+      children: React.ReactNode;
+    }>) {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const toggleDropdown = () => {
@@ -96,7 +98,7 @@ export default function Navbar({
         </ul>
       </nav>
       <main>
-        {/* {children} */}
+        {children}
       </main>
       <footer className="bottom-bar">
         <p style={{ margin: '0', fontSize: '1.2rem' }}>© Algolution 2024&nbsp;&nbsp;&nbsp;</p>
